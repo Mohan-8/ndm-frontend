@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Loading from "./Loading";
 import LogoImage from "../asset/4.png";
 import bg from "../asset/bg1.jpg";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Container = styled.div`
   display: flex;

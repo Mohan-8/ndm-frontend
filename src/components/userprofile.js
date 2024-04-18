@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import styled from "styled-components";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const UserProfile = () => {
   const [UdepartmentDetails, setDepartmentDetails] = useState([]);

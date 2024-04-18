@@ -1,5 +1,6 @@
 import React from "react";
 import yourImage from "../asset/4.png";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Loading = () => (
   <div

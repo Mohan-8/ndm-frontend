@@ -3,6 +3,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Loading from "./Loading";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Admin = () => {
   const [loading, setLoading] = useState(true);
@@ -227,7 +228,13 @@ const Admin = () => {
               >
                 Logout
               </button>
-              <h2 style={{ color: "white", marginTop: "20px" }}>
+              <h2
+                style={{
+                  color: "white",
+                  marginTop: "20px",
+                  marginLeft: "1rem",
+                }}
+              >
                 Welcome{" "}
                 <span style={{ color: "red" }}>{adminDetails.department}</span>
               </h2>
@@ -236,6 +243,7 @@ const Admin = () => {
                   display: "flex",
                   justifyContent: "space-between",
                   marginTop: "20px",
+                  marginLeft: "1rem",
                 }}
               >
                 <div style={{ flexBasis: "48%" }}>

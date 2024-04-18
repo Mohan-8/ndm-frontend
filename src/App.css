@@ -9,6 +9,8 @@ body {
     rgba(52, 152, 219, 1) 7%,
     rgba(6, 68, 87, 1) 94%
   );
+  border: 2px solid cyan;
+  border-radius: 25px;
 }
 
 .container {
@@ -77,9 +79,9 @@ ul li {
   background-color: #34495e;
   color: #fff;
   padding: 1em 0;
+  border-radius: 25px;
   text-align: center;
 }
-/* NdmLandingPage.css */
 .landing-page-container {
   text-align: center;
   padding: 50px;
@@ -118,7 +120,6 @@ p {
   background-color: #2980b9;
 }
 
-/* Add this to your existing CSS */
 .feature-content {
   display: flex;
   justify-content: space-between;
@@ -136,7 +137,6 @@ p {
 span {
   color: red;
 }
-/* Add your global styles or import this stylesheet in your component */
 .logoutButton {
   background-color: #3498db;
   color: #fff;
@@ -145,7 +145,8 @@ span {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-left: 105em;
+  float: right;
+  margin-right: 1rem;
   margin-top: 1em;
 }
 
